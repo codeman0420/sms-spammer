@@ -1,4 +1,4 @@
-import time, os, platform, random, requests, threading
+import time, os, platform, random, requests, threading,getpass
 from user_agent import generate_user_agent
 
 global cmd, headers, proxy
@@ -44,7 +44,7 @@ def main():
 
     print(logo)
 
-    phone = input(f"{B}[*] Phone number: ")
+    phone = getpass.getpass(f"{B}[*] Phone number: ")
     amt = int(input(B + "[*] Count: "))
 
     flush_text("="*28, G)
