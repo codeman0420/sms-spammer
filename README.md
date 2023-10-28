@@ -14,10 +14,10 @@ pkg install git python -y
 git clone https://github.com/codeman0420/sms-spammer
 ```
 ```bash
-pip install -r requirements.txt
+cd sms-spammer && pip install -r requirements.txt
 ```
 ```bash
-cd sms-spammer && python sms_spammer.py
+python sms_spammer.py
 ```
 ### [ SINGLE LINE COMMAND ]
 
